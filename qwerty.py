@@ -35,7 +35,7 @@ def is_last_message_from_sender(chat_log, sender_name="M"):
     return False
 
 # Initialize Together AI client once
-client = Together(api_key="67f4b43be85bc61720e44a42d4c5b6cf26904245e11f85a9bffba0c4506d113a")
+client = Together(api_key="")
 
 # Step 1: Click on the Chrome icon to open WhatsApp Web
 pyautogui.click(557, 749)
